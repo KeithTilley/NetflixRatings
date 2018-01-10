@@ -1,0 +1,11 @@
+.true-ratings > div {
+	margin-top: 10px;
+}
+
+.rating-error {
+	color: red;
+}
+
+.rating-success {
+	color: #46d369;
+}

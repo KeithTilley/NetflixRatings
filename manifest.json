@@ -1,0 +1,30 @@
+{
+	"manifest_version": 2,
+	"name": "NetflixRatings",
+	"version": "1.0",
+	"description": "Adds true ratings to netflix using the OMDB API",
+	"author": "Keith Tilley",
+
+	"icons": {
+		"48": "icons/nr.png"
+	},
+
+	"permissions": [
+		"https://www.omdbapi.com/*",
+		"storage"
+	],
+
+	"browser_action": {
+		"default_icon": "icons/nr.png",
+		"default_title": "Netflix Ratings",
+		"default_popup": "popup/enter_key.html"
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["*://*.netflix.com/browse*"],
+			"js": ["jquery-3.2.1.min.js","content_scripts/nr.js"],
+			"css": ["content_scripts/nr.css"]
+		}
+	]
+}

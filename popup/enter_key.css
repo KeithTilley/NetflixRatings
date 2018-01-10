@@ -1,0 +1,12 @@
+html, body {
+  width: 200px;
+  background-color: lightgrey;
+}
+
+input {
+  width: 90%;
+}
+
+#popup-content {
+  text-align: center;
+}
