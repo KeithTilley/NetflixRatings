@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "NetflixRatings",
-	"version": "1.0",
+	"version": "1.0.1",
 	"description": "Adds true ratings to netflix using the OMDB API",
 	"author": "Keith Tilley",
 

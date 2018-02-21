@@ -1,4 +1,4 @@
-NetflixRatings
+# NetflixRatings 1.0.1
 
 A firefox extension to add ratings (IMDB, Rotten Tomatoes, Metacritic) to Netflix. Ratings will show underneath the title of a selected show.
 
